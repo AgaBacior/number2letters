@@ -92,5 +92,6 @@ var receiveNamber;
 
 while (receiveNamber = prompt('Wpisz liczbe od 0 do 999 do zamiany:')){
 	receiveNamber = parseInt(receiveNamber);
+	
 	alert(convertNmb(receiveNamber));
 }
